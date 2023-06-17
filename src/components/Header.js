@@ -13,7 +13,7 @@ const Header = () => {
         <img src="" alt="" />
         <Link className="logoname" to={"/"}>
           <h3>
-            <span className="spancolorr">Sanmax </span>Mercado
+            <span className="spancolorr">likith </span>Mercado
           </h3>
         </Link>
       </div>
