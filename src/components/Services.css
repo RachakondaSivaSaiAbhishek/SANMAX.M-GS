@@ -1,0 +1,145 @@
+
+
+
+.topbanner{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        background-image:url('../assets/images/service.jpg');
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:  100%;
+        height:100vh;
+        
+    
+}
+.bannertitle{
+    font-size: 68px;
+
+}
+.spancolor{
+    color: #95201a;
+}
+.bannerdesc{
+    font-size: 20px;
+    margin-top: 100px;
+}
+.servicearea{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    background-color:rgb(10, 11, 13);
+    background-attachment: fixed;
+
+}
+.servicearea>h3{
+    font-size: 50px;
+    margin: 50px;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-thickness:4px ;
+}
+.servicelist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 45px;
+}
+.servicecard1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.servicecard>h4{
+    font-size: 23px;
+}
+.imagecard{
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    
+    
+
+}
+.servicecard2{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+@media only  screen and ( max-width:600px ),(min-height:1920px){
+
+
+.services{
+    margin-bottom: 130px;
+}
+
+.bannertitle{
+
+font-size: 35px;
+margin-top: -10px;
+
+}
+.spancolor{
+color: #95201a;
+}
+.bannerdesc{
+font-size: 16px;
+margin-top: 80px;
+text-align: center;
+
+
+}
+.servicearea{
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+background-color: #124143;
+background-attachment: fixed;
+margin-top:-650px;
+
+}
+.servicearea>h3{
+font-size: 30px;
+text-align: center;
+}
+.servicelist{
+display: flex;
+flex-direction: column;
+grid-gap: 10px;
+align-items: center;
+margin-left: -10px;
+}
+.servicecard1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+}
+.servicecard>h4{
+font-size: 20px;
+text-align: center;
+}
+.servicecard>p{
+    text-align: center;
+    max-width: 300px;
+}
+.imagecard{
+object-fit: cover;
+width: 300px;
+height: 300px;
+border-radius: 5px;
+
+
+
+}
+
+
+
+
+}

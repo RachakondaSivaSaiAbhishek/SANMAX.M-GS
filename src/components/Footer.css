@@ -1,0 +1,125 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footerlist{
+    margin-top: 10px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+    
+
+    
+
+}
+.menulinks,.footercontact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+
+
+    
+}
+.menulinks{
+
+}
+.footercontact{
+    margin-top:30px;
+   
+}
+.socials{
+    margin-top: 10px;
+
+   
+}
+.menulinks>p{
+    margin: 5px;
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+.footercontact>p{
+    margin-bottom:5px;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+.footercontact>h3,.menulinks>h3{
+    font-size: 20px;
+    
+}
+.footerlogo>h3{
+    font-size: 40px;
+
+}
+.socialinks,.socialinkswp,.socialinksig{
+    margin: 20px;
+}
+.socialinkswp{
+    color: #00a152;
+}
+.socialinksig{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 5px;
+}
+@media only  screen and ( max-width:600px ),(min-height:1920px){
+    .footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -130px;
+    }
+    .footerlist{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    
+    .menulinks,.footercontact{
+        display: flex;
+        flex-direction: column;
+        margin-left: 1px;
+        
+    }
+    .menulinks{
+
+    }
+    .footercontact{
+        margin-top:30px;
+       
+    }
+    .socials{
+        margin-top: 10px;
+    
+       
+    }
+    .menulinks>p{
+        margin: 5px;
+        font-weight: 200;
+        font-size: 20px;
+        
+    }
+    .footercontact>p{
+        margin-bottom:5px;
+        font-size: 20px;
+        font-weight: 200;
+        
+    }
+    .footercontact>h3,.menulinks>h3{
+        font-size: 20px;
+        
+    }
+    .footerlogo{
+    
+    }
+    .socialinks{
+        margin: 20px;
+    }
+} 

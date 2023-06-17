@@ -1,0 +1,111 @@
+.highlight{
+    display:flex;
+    flex-direction: column;
+    color: antiquewhite;
+    background-image:url('../assets/images/background1.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-attachment:fixed;
+    height: 100vh;
+    
+
+    
+
+}
+.titlehigh{
+    align-self:center;
+    font-size: 60px;
+    
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color:black;
+    align-items: center;
+    background-color: antiquewhite;
+    filter: opacity(70%);
+    margin: 10px;
+    padding-left: 10px;
+    height: 300px;
+}
+.bussicon{
+    margin: 10px;
+}
+.cardtitle{
+    font-size: 24px;
+      margin: -5px;
+      
+}
+.carddesc{
+    font-size: 20px;
+    margin-top: 25px;
+    max-width: 400px;
+    font-weight: 100;
+}
+@media only  screen and ( max-width:600px ),(min-height:1920px){
+    .highlight{
+        display:flex;
+        flex-direction: column;
+        background-color: #141B29;
+        background-image:none;
+        background-repeat:no-repeat;
+        background-position:contain;
+        background-size: 100%;
+        margin-top: 50px;
+        margin-bottom: 200px;
+       
+        
+    
+        
+    
+    }
+    .titlehigh{
+        align-self:center;
+        font-size: 36px;
+        
+        font-weight: 500;
+        text-decoration: underline;
+          text-decoration-color: #5AC994;
+          text-decoration-thickness:4px ;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        color:black;
+        align-items: center;
+        background-color: antiquewhite;
+        margin: 20px;
+        height: 200px;
+        width: 400px;
+    }
+    .bussicon{
+        margin: 10px;
+    }
+    .cardtitle{
+        font-size: 18px;
+          margin: -5px;
+          
+    }
+    .carddesc{
+        font-size: 18px;
+        margin-top: 25px;
+        max-width: 300px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+
+}
+
