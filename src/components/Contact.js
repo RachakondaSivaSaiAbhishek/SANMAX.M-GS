@@ -43,17 +43,17 @@ const Contact = () => {
             <h3> Contact</h3>
             <div className='socialtext'>
               <h3>Phone</h3>
-              <p>+254743713416</p>
-              <h3>Working Hours</h3>
-              <p>Mon - Friday : 8am - 7pm</p>
-              <p>Sartuday : 8am - 5pm</p>
-              <p>Closed on Sunday</p>
+              <p>+971 58 589 6602</p>
+              <h3>Address</h3>
+              <p> Sanmax Mercado </p>
+              <p>Registered Head Quarters Queensbay Kochi, India</p>
+              <p>Email: sanmax@gmail.com</p>
               <div className='socialscontact'>
                 <h3>Follow Us</h3>
                 <a href='' placeholder=''>
                     <FacebookRoundedIcon color="primary" fontSize='large'/>
                  </a>
-                 <a href='' placeholder=''>
+                 <a href='https://www.instagram.com/sanojkt/' placeholder=''>
                     <InstagramIcon color="secondary" fontSize='large'/>
                  </a>
                  <a href='' placeholder=''>
