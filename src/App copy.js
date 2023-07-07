@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
-import Product from "./components/Product"; // Import the Product component
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogs" element={<Blogs />} />
-          <Route path="/product" element={<Product />} /> {/* Use the correct component name */}
+          <Route path="/product" element={<product />} />
         </Routes>
         <Footer />
       </Router>

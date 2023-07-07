@@ -1,25 +1,29 @@
-import React from "react";
-import "./Header.css";
-import MenuIcon from "@mui/icons-material/Menu";
-import Divider from "@mui/material/Divider";
-import { useState } from "react";
-import { Link } from "react-router-dom";
 
-const Header = () => {
+import React from 'react';
+import './Header.css';
+import MenuIcon from '@mui/icons-material/Menu';
+import Divider from '@mui/material/Divider';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+const Header = ({ backgroundImg }) => {
   const [show, setShow] = useState(false);
   return (
-    <div className="navbar">
+    <div className='navbar' style={{ backgroundImage: `url(${backgroundImg})` }}>
       <div className="logoContainer">
         <img src="" alt="" />
         <Link className="logoname" to={"/"}>
           <h3>
-          <span className="spancolorr">Sanmax </span>Mercado
+            <span className="spancolorr">Sanmax </span>Mercado
           </h3>
         </Link>
       </div>
       <div className="linkContainer">
         <Link className="navlink" to={"/"}>
           Home
+        </Link>
+        <Link className="navlink" to={"/product"}>
+          Products
         </Link>
         <Link className="navlink" to={"/services"}>
           Services
@@ -39,6 +43,10 @@ const Header = () => {
           <div className="r-items">
             <Link to="/" className="r-links">
               <h3>Home</h3>
+            </Link>
+            <Divider />
+            <Link to="/product" className="r-links">
+              <h3>Products</h3>
             </Link>
             <Divider />
             <Link to="/services" className="r-links">
@@ -61,3 +69,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
